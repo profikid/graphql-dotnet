@@ -1,4 +1,4 @@
-using GraphQL.Builders;
+﻿using GraphQL.Builders;
 using GraphQL.Resolvers;
 using System;
 using System.Collections.Generic;
@@ -23,7 +23,7 @@ namespace GraphQL.Types
 
         public IEnumerable<FieldType> Fields
         {
-            get { return _fields; }
+            get => _fields;
             private set
             {
                 _fields.Clear();
